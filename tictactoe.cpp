@@ -2,7 +2,7 @@
 #include<conio.h>
 #include <time.h>
 using namespace std;
-//X is represented as -1 an empty cell is represented as a 0 and an O is represented as a 10
+//X is represented as -1 an empty cell is represented as a 0 and an O is represented as a 1
 
 void returnTranspose(int arr[][3],int arr2[][3]){ // takes an input matrix arr and converts arr2 to transpose of arr
     for(int i=0;i<3;i++)
