@@ -121,7 +121,7 @@ int returnOptimal(int arr[][3]){ // return an optimal index
     int arrd1[3],arrd2[3];
     for(int i=0;i<3;i++){
         arrd1[i]=arr[i][i];
-        arrd2[i]=arr[2-i][i];
+        arrd2[i]=arr[i][2-i];
     }
     cout<<"Computer Checking 1st diagonal"<<endl;
     v=checkForTwo(arrd1);
